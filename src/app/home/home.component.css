@@ -1,0 +1,128 @@
+.productImage {
+  height: 300px;
+  width: 350px;
+  float: left;
+  border-radius: 3px;
+}
+
+.container {
+  margin: 30px;
+  background-color: rgb(245, 198, 127); 
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  margin: 20px;
+  /* box-shadow: 5px 5px 5px #a7cbe0; */
+  box-shadow: 5px 5px 5px #f1dc72;
+
+  transition: all 0.3s;
+  overflow: hidden;
+  border-radius: 25px;
+  /* background: rgb(188, 241, 177); */
+  background: rgb(245, 198, 127);
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
+.card:hover .card-content {
+  opacity: 1;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgb(236, 215, 91);
+}
+
+
+.card-content h3 {
+  color: #4682b4;
+  font-family: 'Noto Sans KR', sans-serif;}
+
+.card-content span {
+  color: #4682b4; 
+}
+
+.card-content .product-name {
+  color: #4682b4;
+    font-family: 'Noto Sans KR', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+margin-top: 5px;
+
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-left: 65%;
+
+}
+
+.search-field {
+  width: 150px; 
+
+}
+.category-field{
+  width: 150px;
+}
+.mat-form-field-outline {
+  border-radius: 4px; 
+}
+.search-input {
+  border-radius: 50px; 
+  
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  border-radius: 50px; 
+}
+
+button {
+  border-radius: 50%;
+  background-color: transparent;
+}
+.drop-down-field{
+  width: 150px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

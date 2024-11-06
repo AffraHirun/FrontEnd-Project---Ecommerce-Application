@@ -1,0 +1,126 @@
+.order-view-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f5e8a9;
+}
+
+.order-form-container {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 800px;
+  margin-bottom: 15%;
+  margin: 20px auto;
+  background-color: #f5e8a9;
+}
+
+.placeYourOrder {
+  font-size: 30px;
+  text-align: center;
+  color: #4682b4;
+}
+
+/* trying to arrange the fields in rows */
+.name-form-field,
+.email-form-field,
+.contact-form-field,
+.address-form-field {
+  width: calc(33.33% - 20px);
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.address-form-field {
+  width: calc(66.66% - 20px);
+}
+
+.full-width {
+  width: calc(100% - 20px);
+}
+
+button.placeOrderButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3890f !important;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.placeOrderButton:hover {
+  background-color: rgb(233, 233, 54) !important;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.product-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.details-container {
+  flex: 2;
+  margin-left: 20px;
+  background-color: #f0e092;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-container h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #4682b4;
+}
+
+.details-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #4682b4;
+}
+
+.details-container h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #4682b4;
+}
+
+.details-container p {
+  font-size: 1em;
+  color: #4682b4;
+}
+
+/* Arranging fields into rows */
+form div:nth-of-type(1),
+form div:nth-of-type(2),
+form div:nth-of-type(3) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form div:nth-of-type(3) .name-form-field {
+  width: calc(33.33% - 20px);
+  margin-right: 10px;
+}
+
+form div:nth-of-type(3) .address-form-field {
+  width: calc(66.66% - 20px);
+}

@@ -1,0 +1,32 @@
+<div class="container">
+  <form class="search-form">
+    <mat-form-field class="search-field" appearance="outline">
+      <mat-label>Search</mat-label>
+      <input matInput  [(ngModel)]="searchText" name="searchText" placeholder="Search" class="search-input" (input)="search()">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="drop-down-field">
+      <mat-label>Category</mat-label>
+      <mat-select [(ngModel)]="selectedCategory" name="selectedCategory" (selectionChange)="filterByCategory()">
+        <mat-option value="">All</mat-option>
+        <mat-option value="Milk">Milk</mat-option>
+        <mat-option value="Butter">Butter</mat-option>
+        <mat-option value="Cheese">Cheese</mat-option>
+        <mat-option value="Yogurt">Yogurt</mat-option>
+        <mat-option value="Quick Bites">Quick Bites</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+
+  <div class="row">
+    <mat-card class="card" *ngFor="let viewProduct of data">
+      <a href="/order/{{viewProduct?.id}}">
+        <img mat-card-image class="productImage" src="../../assets/{{viewProduct.image}}" alt="{{viewProduct.name}}">
+        <mat-card-content class="card-content">
+          <span class="product-name">{{viewProduct.name}}</span> <br>
+          <h3>PRICE: <span class="price">{{viewProduct.price}}</span></h3> 
+        </mat-card-content>
+      </a>
+    </mat-card>
+  </div>
+</div>

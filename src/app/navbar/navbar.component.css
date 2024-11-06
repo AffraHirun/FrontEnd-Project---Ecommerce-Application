@@ -1,0 +1,67 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: rgb(238, 217, 182); 
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-toolbar.mat-primary.extended-header {
+  height: 200px; 
+  text-align: center;
+}
+
+
+.mat-toolbar.mat-primary.extended-header h1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.mat-toolbar.mat-primary.extended-header h1.shopTitle {
+  font-size: 2.5em; 
+  margin-top: 50px; 
+}
+
+.mat-toolbar.mat-primary.extended-header {
+  display: flex;
+  justify-content: space-between; 
+    align-items: center; 
+}
+
+.mat-toolbar.mat-primary.extended-header {
+  height: 200px; 
+  text-align: center;
+  background-color: #f1dc72;
+}
+
+.mat-toolbar.mat-primary.extended-header .menu-icon {
+  margin-left: 10px; 
+}
+
+.mat-toolbar.mat-primary.extended-header h1.shopTitle {
+  font-size: 4.5em; 
+  margin: 0;
+  margin-right: 40%;
+  line-height: 60px;
+}
+
+.logo {
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+}
+
+mat-sidenav-content {
+  background-color: rgb(245, 198, 127); 
+}
+
+

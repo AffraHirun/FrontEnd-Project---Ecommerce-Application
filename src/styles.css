@@ -1,0 +1,9 @@
+html, body {
+  height: 100%; 
+  margin: 0; 
+  background-color: rgb(245, 198, 127); /* Set the background color to yellow */
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

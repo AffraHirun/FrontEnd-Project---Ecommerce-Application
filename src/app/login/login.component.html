@@ -1,0 +1,19 @@
+<div class="login-container">
+  <div class="login-header">
+    <p>You need to first Login to access the Dashboard!!!</p>
+  </div>
+
+<form class="login-card" (ngSubmit)="login()">
+    <mat-form-field class="form-field" appearance="fill">
+      <mat-label>User Name</mat-label>
+      <input matInput [(ngModel)]="userName" name="un" required>
+    </mat-form-field> 
+
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>Password</mat-label>
+      <input matInput [(ngModel)]="password" name="pass" type="password" required>
+    </mat-form-field>
+    
+    <button mat-raised-button color="primary" type="submit">Login</button>
+  </form>
+</div>

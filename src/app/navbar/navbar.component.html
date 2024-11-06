@@ -1,0 +1,22 @@
+<div class="body">
+  <mat-toolbar color="primary" class="extended-header">
+    <button class="logo" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
+      m&m
+    </button>
+     <h1 class="shopTitle">milk &<br>morsels</h1>
+  </mat-toolbar>
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="'navigation'" 
+    [mode]="'push'"
+    [opened]="false">
+      <mat-nav-list>
+        <a mat-list-item routerLink="homec">Home</a>
+        <a mat-list-item routerLink="aboutus">About US</a>
+        <a mat-list-item routerLink="alldetails">Admin Dashboard</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

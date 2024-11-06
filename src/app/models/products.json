@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Whole Milk",
+      "category": "Milk",
+      "price": 245,
+      "subtitle": "Rich and creamy whole milk",
+      "image": "whole-milk.jpg",
+      "description": "Enjoy the rich and creamy texture of our Whole Milk. Perfect for drinking on its own or adding to coffee and tea. Packed with essential nutrients and vitamins. An ideal choice for those who love the full taste of milk. Fresh and delicious, straight from the farm."
+    },
+    {
+      "id": "2",
+      "name": "Fat-Free Milk",
+      "category": "Milk",
+      "price": 205,
+      "subtitle": "Healthy fat-free milk",
+      "image": "fat-free-milk.jpg",
+      "description": "Stay healthy with our Fat-Free Milk, a great choice for the health-conscious. Enjoy the taste of milk without the fat. Perfect for cereal, smoothies, and more. Packed with calcium and essential nutrients. Fresh and delicious, perfect for any diet."
+    },
+    {
+      "id": "3",
+      "name": "Low-Fat Milk",
+      "category": "Milk",
+      "price": 220,
+      "subtitle": "Delicious low-fat milk",
+      "image": "low-fat-milk.jpg",
+      "description": "Our Low-Fat Milk offers a delicious balance of taste and health. Enjoy the creamy taste without the extra fat. Ideal for drinking, cooking, and baking. Rich in calcium and vitamins. Fresh from the farm, ensuring top quality and taste."
+    },
+    {
+      "id": "4",
+      "name": "Reduced Fat Milk",
+      "category": "Milk",
+      "price": 230,
+      "subtitle": "Tasty reduced fat milk",
+      "image": "reduced-fat-milk.jpg",
+      "description": "Taste the difference with our Reduced Fat Milk. Perfect for those looking to reduce their fat intake. Enjoy the creamy taste with less fat. Great for drinking and cooking. Packed with essential nutrients and vitamins."
+    },
+    {
+      "id": "5",
+      "name": "Salted Butter",
+      "category": "Butter",
+      "price": 285,
+      "subtitle": "Classic salted butter",
+      "image": "salted-butter.jpg",
+      "description": "Our Salted Butter is perfect for spreading on toast or baking. Made from high-quality cream for a rich flavor. Adds a delicious touch to any dish. Great for cooking and baking. Smooth, creamy, and full of flavor."
+    },
+    {
+      "id": "6",
+      "name": "Unsalted Butter",
+      "category": "Butter",
+      "price": 285,
+      "subtitle": "Versatile unsalted butter",
+      "image": "unsalted-butter.jpg",
+      "description": "Our Unsalted Butter is ideal for baking and cooking. Made from pure cream, offering a rich taste. Perfect for recipes that require precise salt control. Smooth, creamy, and versatile. A kitchen essential for every chef."
+    },
+    {
+      "id": "7",
+      "name": "Organic Butter",
+      "category": "Butter",
+      "price": 370,
+      "subtitle": "Pure organic butter",
+      "image": "organic-butter.jpg",
+      "description": "Enjoy the purity of our Organic Butter, made from the highest quality cream. Perfect for those who prefer organic products. Rich, creamy, and delicious. Ideal for spreading, cooking, and baking. Free from artificial additives and preservatives."
+    },
+    {
+      "id": "8",
+      "name": "Ricotta",
+      "category": "Cheese",
+      "price": 490,
+      "subtitle": "Creamy ricotta cheese",
+      "image": "ricotta-cheese.jpg",
+      "description": "Our Ricotta Cheese is perfect for both sweet and savory dishes. Enjoy its creamy texture and mild flavor. Ideal for lasagna, cannoli, and more. Packed with protein and calcium. Fresh and delicious, a must-have for your kitchen."
+    },
+    {
+      "id": "9",
+      "name": "Feta",
+      "category": "Cheese",
+      "price": 410,
+      "subtitle": "Tangy feta cheese",
+      "image": "feta-cheese.jpg",
+      "description": "Add a tangy twist to your meals with our Feta Cheese. Perfect for salads, sandwiches, and more. Rich in flavor and nutrients. Crumbly texture that's ideal for sprinkling. Made from high-quality milk, ensuring a fresh taste."
+    },
+    {
+      "id": "10",
+      "name": "Mozzarella",
+      "category": "Cheese",
+      "price": 532,
+      "subtitle": "Soft mozzarella cheese",
+      "image": "mozzarella-cheese.jpg",
+      "description": "Our Mozzarella Cheese is soft, fresh, and delicious. Perfect for pizza, pasta, and salads. Enjoy its mild, milky flavor. Packed with calcium and protein. Fresh and high-quality, straight from the farm."
+    },
+    {
+      "id": "11",
+      "name": "Mascarpone",
+      "category": "Cheese",
+      "price": 573,
+      "subtitle": "Rich mascarpone cheese",
+      "image": "mascarpone.jpg",
+      "description": "Indulge in the rich, creamy taste of our Mascarpone Cheese. Perfect for desserts like tiramisu. Smooth texture and mild flavor. Great for both sweet and savory dishes. Made from high-quality milk, ensuring freshness."
+    },
+    {
+      "id": "12",
+      "name": "Regular Yogurt",
+      "category": "Yogurt",
+      "price": 163,
+      "subtitle": "Smooth regular yogurt",
+      "image": "regular-yogurt.jpg",
+      "description": "Enjoy the smooth, creamy taste of our Regular Yogurt. Perfect for breakfast or a snack. Rich in probiotics and essential nutrients. Great for smoothies, parfaits, and more. Fresh and delicious, a healthy choice."
+    },
+    {
+      "id": "13",
+      "name": "Greek Yogurt",
+      "category": "Yogurt",
+      "price": 205,
+      "subtitle": "Thick greek yogurt",
+      "image": "greek-yogurt.jpg",
+      "description": "Our Greek Yogurt is thick, creamy, and delicious. Packed with protein and probiotics. Perfect for a healthy breakfast or snack. Great for smoothies, dips, and more. Made from high-quality milk, ensuring freshness."
+    },
+    {
+      "id": "14",
+      "name": "French Yogurt",
+      "category": "Yogurt",
+      "price": 220,
+      "subtitle": "Luxurious french yogurt",
+      "image": "french-yogurt.jpg",
+      "description": "Indulge in the luxurious taste of our French Yogurt. Smooth, creamy, and delicious. Perfect for a decadent breakfast or dessert. Rich in probiotics and essential nutrients. Fresh and high-quality, a treat for your taste buds."
+    },
+    {
+      "id": "15",
+      "name": "Butter Cake",
+      "category": "Quick Bites",
+      "price": 327,
+      "subtitle": "Moist butter cake",
+      "image": "butter-cake.jpg",
+      "description": "Our Butter Cake is moist, rich, and delicious. Perfect for any occasion. Enjoy the buttery flavor and soft texture. Great with tea or coffee. Made from high-quality ingredients, ensuring a fresh taste."
+    },
+    {
+      "id": "16",
+      "name": "Butter Cookies",
+      "category": "Quick Bites",
+      "price": 245,
+      "subtitle": "Crispy butter cookies",
+      "image": "butter-cookies.jpg",
+      "description": "Enjoy the crispy, buttery goodness of our Butter Cookies. Perfect for a snack or dessert. Made from high-quality ingredients. Great with tea or coffee. Delicious and freshly baked, a treat for everyone."
+    },
+    {
+      "id": "17",
+      "name": "Cheese Cake",
+      "category": "Quick Bites",
+      "price": 490,
+      "subtitle": "Rich cheese cake",
+      "image": "cheese-cake.jpg",
+      "description": "Indulge in the rich, creamy taste of our Cheese Cake. Perfect for dessert or special occasions. Made from high-quality cream cheese. Smooth, delicious, and decadent. Freshly made, ensuring a delightful experience."
+    },
+    {
+      "id": "18",
+      "name": "Buttery Croissants",
+      "category": "Quick Bites",
+      "price": 368,
+      "subtitle": "Flaky buttery croissants",
+      "image": "buttery-croissants.jpg",
+      "description": "Our Buttery Croissants are flaky, buttery, and delicious. Perfect for breakfast or a snack. Made from high-quality ingredients. Enjoy the rich, buttery flavor. Freshly baked, ensuring a delightful taste."
+    }
+  ],
+  "orders": [
+    {
+      "id": "8988",
+      "pname": "Fat-Free Milk",
+      "pprice": 205,
+      "name": "nabeesa",
+      "email": "nabeesa@gmail.com",
+      "contact": "9876543212",
+      "address": "tenkasi, india",
+      "quantity": 5
+    },
+    {
+      "id": "c2ac",
+      "pname": "Cheese Cake",
+      "pprice": 490,
+      "name": "resul",
+      "email": "resul@gmail.com",
+      "contact": "9876543212",
+      "address": "tenkasi, india",
+      "quantity": 8
+    }
+  ]
+}

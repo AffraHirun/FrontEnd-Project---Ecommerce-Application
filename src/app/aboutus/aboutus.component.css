@@ -1,0 +1,50 @@
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5e8a9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #4682b4;
+}
+
+.content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color:#4682b4;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.content ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.content ul li {
+  margin-bottom: 5px;
+}
